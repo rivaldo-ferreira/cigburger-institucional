@@ -1,0 +1,63 @@
+/* app.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #28251e;
+    color: white;
+}
+
+.nav-link {
+    color: #FFa54c;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #ffc926;
+    text-decoration: underline;
+}
+
+.bg-color-02 {
+    background-color: #2f2b24;
+}
+
+.btn-products {
+    background: linear-gradient(to bottom,#ffdb04,#ffa100);
+    color: black;
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.btn-products:hover{
+    background: linear-gradient(to bottom,#6b643e, #604515);
+    color: white;
+}
+
+.product-box {
+    background-color: #2f2b24;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-text-color {
+    color: #ffc926;
+}
+
+.where-we-are-title {
+    color: #ffc926;
+    font-size: 3rem;
+}
+.where-we-are-subtitle {
+    color: #ffc926;
+    font-size: 2rem;
+}
